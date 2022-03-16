@@ -1,4 +1,4 @@
-public class BAK_2557 {
+public class Main {
 
     public static void main(String[] args) {
 
