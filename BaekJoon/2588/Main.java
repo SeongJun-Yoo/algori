@@ -8,12 +8,19 @@ public class Main {
 
         int A = scan.nextInt();
         int B = scan.nextInt();
-        int C = scan.nextInt();
+        int C = A * (B%10);
+        int D = A * ((B%100)/10);
+        int E = A * ((B%1000)/100);
+        int F = C + (D*10) + (E*100) ;
 
-        System.out.println((A + B) % C);
-        System.out.println(((A % C) + (B % C)) % C);
-        System.out.println((A * B) % C);
-        System.out.println(((A % C) * (B % C)) % C);
+ 
+
+        System.out.println(C);
+        System.out.println(D);
+        System.out.println(E);
+        System.out.println(F);
+
+ 
 
     }
 
